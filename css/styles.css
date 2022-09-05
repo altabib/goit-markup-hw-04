@@ -133,6 +133,8 @@ color: var(--three-color-text)
     font-weight: 500;
     color: var(--second-color-text);
     margin-right: 50px;
+    display: flex;
+    align-items: center;
 }
 .hdcontact:last-child {
     margin-right: 0;
@@ -337,7 +339,7 @@ padding: 94 0;
  .team-icon:focus {
      background-color: var(--accent-color-text);
      fill: var(--three-color-text);
-     cursor: pointer;
+     
  }
  .social-list:not(:last-child) {
     margin-right: 10px;
@@ -353,7 +355,7 @@ padding: 94 0;
     justify-content: center;
     align-items: center;
 }
-.client-icon {
+.client-icon-list {
     width: 170px;
     height: 92px;
     border: 1px solid var(--six-bg);
@@ -363,11 +365,11 @@ padding: 94 0;
     align-items: center;
     fill: var(--six-bg);
 }
-.client-icon:hover,
-.client-icon:focus {
+.client-icon-list:hover,
+.client-icon-list:focus {
     border: 1px solid var(--accent-color-text);
     fill: var(--accent-color-text);
-    cursor: pointer;
+  
 }
 
 .client-icon:not(:last-child) {
@@ -379,11 +381,6 @@ padding: 94 0;
     padding-top:60px ;
     padding-bottom: 60px;
 }
-    .footer-items {
-    display: flex;
-    align-items: baseline;
-}
-
 .footer-items {
     display: flex;
     align-items: baseline;
@@ -439,6 +436,9 @@ margin-bottom: 9px;
     letter-spacing: 0.03em;
     color: var(--three-color-text);
     margin-bottom: 20px;
+}
+.address-blok {
+    margin-right: 70px;
 }
  /*Portfolio*/
 
@@ -524,6 +524,10 @@ margin-bottom: 9px;
 .our-work {
     text-decoration: none;
     display: block;
+}
+.filter-button:hover,
+.filter-button:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .our-work:hover,
