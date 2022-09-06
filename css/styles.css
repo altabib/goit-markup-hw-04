@@ -440,6 +440,28 @@ margin-bottom: 9px;
 .address-blok {
     margin-right: 70px;
 }
+
+.footer-icon {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: var(--three-bg);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%    
+}
+
+.footer-icon:hover,
+.footer-icon:focus {
+    background-color: var(--accent-color-text);
+    fill: var(--three-color-text);
+
+}
+
+.footer-social:not(:last-child) {
+    margin-right: 10px; 
+}
  /*Portfolio*/
 
  .head-portfolio {
